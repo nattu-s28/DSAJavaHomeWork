@@ -1,0 +1,18 @@
+import java.util.*;
+
+// Non-Repeating Element - Geeks for Geeks
+
+public class Question1 {
+    public int firstNonRepeating(int[] arr) {
+        HashMap<Integer,Integer> map = new HashMap<>();
+        for(int i=0; i<arr.length; i++){
+            map.put(arr[i],map.getOrDefault(arr[i],0)+1);
+        }
+        for(int i=0; i<arr.length; i++){
+            if(map.get(arr[i]) == 1){
+                return arr[i];
+            }
+        }
+        return 0;
+    }
+}
