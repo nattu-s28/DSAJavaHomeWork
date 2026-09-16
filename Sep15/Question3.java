@@ -1,6 +1,6 @@
-import java.util.HashMap;
-
 // Leetcode 1748. Sum of Unique Elements
+
+import java.util.HashMap;
 
 public class Question3 {
     public int sumOfUnique(int[] nums) {

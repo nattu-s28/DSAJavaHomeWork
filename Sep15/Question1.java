@@ -1,6 +1,6 @@
-import java.util.*;
-
 // Non-Repeating Element - Geeks for Geeks
+
+import java.util.*;
 
 public class Question1 {
     public int firstNonRepeating(int[] arr) {

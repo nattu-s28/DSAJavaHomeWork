@@ -1,8 +1,8 @@
+// Leetcode 1207. Unique Number of Occurrences
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
-// Leetcode 1207. Unique Number of Occurrences
 
 public class Question4 {
     public boolean uniqueOccurrences(int[] arr) {

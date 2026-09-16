@@ -1,8 +1,8 @@
+// Leetcode 442. Find All Duplicates in an Array
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
-
-// Leetcode 442. Find All Duplicates in an Array
 
 public class Question2 {
     public List<Integer> findDuplicates(int[] nums) {

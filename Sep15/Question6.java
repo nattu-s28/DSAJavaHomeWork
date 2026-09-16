@@ -1,6 +1,6 @@
-import java.util.HashMap;
-
 // Leetcode - 219. Contains Duplicate II
+
+import java.util.HashMap;
 
 class Question6 {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
